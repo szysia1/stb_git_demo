@@ -26,5 +26,7 @@ public class GetTest {
         JsonPath json = response.jsonPath();
         List<String> names = json.getList("name");
         assertEquals(10, names.size());
+
+        System.out.println("Test");
     }
 }
